@@ -1,0 +1,1 @@
+<modal-item v-if="openModal"></modal-item>

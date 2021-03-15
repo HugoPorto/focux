@@ -1,0 +1,62 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var \App\Model\Entity\VideosUser[]|\Cake\Collection\CollectionInterface $videosUsers
+ */
+?>
+<nav class="large-3 medium-4 columns" id="actions-sidebar">
+    <ul class="side-nav">
+        <?php echo $username; ?>
+        <li class="heading"><?= __('Actions') ?></li>
+        <li><?= $this->Html->link(__('New Videos User'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List Playlist Users'), ['controller' => 'PlaylistUsers', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('New Playlist User'), ['controller' => 'PlaylistUsers', 'action' => 'add']) ?></li>
+    </ul>
+</nav>
+<div class="videosUsers index large-9 medium-8 columns content">
+    <h3><?= __('Videos Users') ?></h3>
+    <table cellpadding="0" cellspacing="0">
+        <thead>
+            <tr>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('photo') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('title') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('users_id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('playlist_users_id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('created') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
+                <th scope="col" class="actions"><?= __('Actions') ?></th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($videosUsers as $videosUser): ?>
+            <tr>
+                <td><?= $this->Number->format($videosUser->id) ?></td>
+                <td><?= h($videosUser->photo) ?></td>
+                <td><?= h($videosUser->title) ?></td>
+                <td><?= $videosUser->has('user') ? $this->Html->link($videosUser->user->name, ['controller' => 'Users', 'action' => 'view', $videosUser->user->id]) : '' ?></td>
+                <td><?= $videosUser->has('playlist_user') ? $this->Html->link($videosUser->playlist_user->title, ['controller' => 'PlaylistUsers', 'action' => 'view', $videosUser->playlist_user->id]) : '' ?></td>
+                <td><?= h($videosUser->created) ?></td>
+                <td><?= h($videosUser->modified) ?></td>
+                <td class="actions">
+                    <?= $this->Html->link(__('View'), ['action' => 'view', $videosUser->id]) ?>
+                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $videosUser->id]) ?>
+                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $videosUser->id, $username], ['confirm' => __('Are you sure you want to delete # {0}?', $videosUser->id)]) ?>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+    <div class="paginator">
+        <ul class="pagination">
+            <?= $this->Paginator->first('<< ' . __('first')) ?>
+            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->numbers() ?>
+            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->last(__('last') . ' >>') ?>
+        </ul>
+        <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
+    </div>
+</div>

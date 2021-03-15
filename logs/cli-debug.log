@@ -1,0 +1,1038 @@
+2018-11-27 16:19:09 Notice: Notice (8): Undefined index: TemporadasVideos in [C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_8511fcbe84d3370f1a0661eff891dd5ef80624a4a9e84c7abdee0c3c3ec35d88::doDisplay() - ROOT\tmp\cache\twigView\b2\b2e9ef6610e6990cff874c28fab9a748dc6afce4af9163da365dd9fa4be3017a.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2018-11-27 16:25:08 Notice: Notice (8): Undefined index: Temporadas in [C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_8511fcbe84d3370f1a0661eff891dd5ef80624a4a9e84c7abdee0c3c3ec35d88::doDisplay() - ROOT\tmp\cache\twigView\b2\b2e9ef6610e6990cff874c28fab9a748dc6afce4af9163da365dd9fa4be3017a.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2018-11-27 17:09:29 Notice: Notice (8): Undefined index: Temporadas in [C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_8511fcbe84d3370f1a0661eff891dd5ef80624a4a9e84c7abdee0c3c3ec35d88::doDisplay() - ROOT\tmp\cache\twigView\b2\b2e9ef6610e6990cff874c28fab9a748dc6afce4af9163da365dd9fa4be3017a.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2018-11-27 21:10:14 Notice: Notice (8): Undefined index: Animes in [C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_8511fcbe84d3370f1a0661eff891dd5ef80624a4a9e84c7abdee0c3c3ec35d88::doDisplay() - ROOT\tmp\cache\twigView\b2\b2e9ef6610e6990cff874c28fab9a748dc6afce4af9163da365dd9fa4be3017a.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2018-11-28 00:08:48 Notice: Notice (8): Undefined index: Animes in [C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_8511fcbe84d3370f1a0661eff891dd5ef80624a4a9e84c7abdee0c3c3ec35d88::doDisplay() - ROOT\tmp\cache\twigView\b2\b2e9ef6610e6990cff874c28fab9a748dc6afce4af9163da365dd9fa4be3017a.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2018-11-28 00:10:14 Notice: Notice (8): Undefined index: Temporadas in [C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_8511fcbe84d3370f1a0661eff891dd5ef80624a4a9e84c7abdee0c3c3ec35d88::doDisplay() - ROOT\tmp\cache\twigView\b2\b2e9ef6610e6990cff874c28fab9a748dc6afce4af9163da365dd9fa4be3017a.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-01-13 16:17:17 Notice: Notice (8): Undefined index: Categoriasprodutos in [C:\xampp\htdocs\tounamidia\home\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_fb1bc00eafd26ed4c04b94736f1ae1d3c0e4cc7e3634a29bc7fbc8d7021a0a64::doDisplay() - ROOT\tmp\cache\twigView\e5\e5281d3350c6255382ad4e661b6a73b49e6116ff7c9d59d2f0bab9bb4533f718.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-01-18 02:54:25 Notice: Notice (8): Undefined index: Galerias in [C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_f03131f275f3e8af326818c2fef00efcfb852654b6750a638659d2ba9023567e::doDisplay() - ROOT\tmp\cache\twigView\dd\ddfb163194eb0b82fd7bb5ef481d552dc90a5d350df350cf33728baf61b77872.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-04-03 11:40:06 Notice: Notice (8): Undefined index: CategoryVideos in [C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_f03131f275f3e8af326818c2fef00efcfb852654b6750a638659d2ba9023567e::doDisplay() - ROOT\tmp\cache\twigView\dd\ddfb163194eb0b82fd7bb5ef481d552dc90a5d350df350cf33728baf61b77872.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-05-02 16:51:37 Notice: Notice (8): Undefined index: Galerys in [C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_a92ac965d749e36f8a283e9e46d536104435d7a1dc924b91e08ba6b2df2184d0::doDisplay() - ROOT\tmp\cache\twigView\60\60b300fe88c52ae239b8ffea6e6899eee8bc34fb2ba58bf5f6404b128f6be69d.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-06-15 22:41:06 Notice: Notice (8): Undefined index: Users in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-06-27 12:54:44 Notice: Notice (8): Undefined index: Users in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-06-27 13:24:24 Notice: Notice (8): Undefined index: PaymentMethods in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-06-27 13:31:48 Notice: Notice (8): Undefined index: MethodTopayments in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-06-29 21:46:20 Notice: Notice (8): Undefined index: Owners in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-13 12:44:41 Notice: Notice (8): Undefined index: Csts in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-13 12:44:41 Notice: Notice (8): Undefined index: Cfops in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-14 03:16:34 Notice: Notice (8): Undefined index: Estados in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-14 03:16:34 Notice: Notice (8): Undefined index: Cidades in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-14 22:12:41 Notice: Notice (8): Undefined index: Centroresultados in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-14 22:19:20 Notice: Notice (8): Undefined index: Planocontas in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-14 22:19:20 Notice: Notice (8): Undefined index: Estados in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-14 22:19:20 Notice: Notice (8): Undefined index: Cidades in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-08-14 22:19:20 Notice: Notice (8): Undefined index: Empresas in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-11-18 15:43:10 Notice: Notice (8): Undefined index: Users in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-12-27 22:57:41 Notice: Notice (8): Undefined index: Clients in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-01-08 21:17:48 Notice: Notice (8): Undefined index: Courses in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-01-08 21:17:48 Notice: Notice (8): Undefined index: Users in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-02-24 13:07:25 Notice: Notice (8): Undefined index: Videos in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-04-10 02:42:38 Notice: Notice (8): Undefined index: Animes in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-05-11 12:49:33 Notice: Notice (8): Undefined index: Seanseries in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-05-11 12:49:33 Notice: Notice (8): Undefined index: Videosseries in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 234
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 677
+__TwigTemplate_b086fc41ae833c5f78ee916b4adeb1723d3e947650e887f81ccc6f8f02405bfb::doDisplay() - ROOT\tmp\cache\twigView\55\55fc185acaeaa54db12819f1c074437ed4c710ec98c9e0c32bab29c4ffacb608.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 432
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 403
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 89
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-11 19:24:32 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-11 19:25:54 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-11 19:47:22 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 17:51:33 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 17:53:46 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:03:08 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:03:18 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:05:31 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:05:44 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:08:51 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:10:15 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:15:15 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:22:04 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-12 20:57:41 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-18 23:15:21 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-18 23:22:32 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-18 23:24:55 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-07-18 23:26:57 Notice: Notice (8): compact(): Undefined variable: admin in [C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+compact - [internal], line ??
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 158
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 264
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 265
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 493
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 141
+[main] - ROOT\bin\cake.php, line 12
+
+
+

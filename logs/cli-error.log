@@ -1,0 +1,522 @@
+2018-01-24 21:06:34 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blueline_database.crud' doesn't exist in C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'crud', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('crud', Array)
+#2 C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('crud')
+#3 C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\blueline2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\blueline2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\blueline2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'crud', 'Crud')
+#7 C:\xampp\htdocs\blueline2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Crud')
+#8 C:\xampp\htdocs\blueline2\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Crud')
+#9 C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Crud', 0)
+#10 C:\xampp\htdocs\blueline2\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('crud')
+#12 C:\xampp\htdocs\blueline2\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\blueline2\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2018-11-27 21:07:32 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_redanimes.animes' doesn't exist in C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'animes', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('animes', Array)
+#2 C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('animes')
+#3 C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'animes', 'Animes')
+#7 C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Animes')
+#8 C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Animes')
+#9 C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Animes', 0)
+#10 C:\xampp\htdocs\colibri\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('animes')
+#12 C:\xampp\htdocs\colibri\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\colibri\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-01-03 13:16:17 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_tounamidia.referencesimages' doesn't exist in C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'referencesimage...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('referencesimage...', Array)
+#2 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('referencesimage...')
+#3 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'referencesimage...', 'Referencesimage...')
+#7 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Referencesimage...')
+#8 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Referencesimage...')
+#9 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Referencesimage...', 0)
+#10 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('referencesimage...')
+#12 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\tounamidia\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-01-03 13:16:55 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_tounamidia.referencesimages' doesn't exist in C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'referencesimage...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('referencesimage...', Array)
+#2 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('referencesimage...')
+#3 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'referencesimage...', 'Referencesimage...')
+#7 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Referencesimage...')
+#8 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Referencesimage...')
+#9 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Referencesimage...', 0)
+#10 C:\xampp\htdocs\tounamidia\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('referencesimage...')
+#12 C:\xampp\htdocs\tounamidia\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\tounamidia\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-01-23 15:01:05 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux.instituicoes' doesn't exist in C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'instituicoes', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('instituicoes', Array)
+#2 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('instituicoes')
+#3 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'instituicoes', 'Instituicoes')
+#7 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Instituicoes')
+#8 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Instituicoes')
+#9 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Instituicoes', 0)
+#10 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('instituicoes')
+#12 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\focux\home\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-01-23 15:01:53 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux.instituicoes' doesn't exist in C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'instituicoes', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('instituicoes', Array)
+#2 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('instituicoes')
+#3 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'instituicoes', 'Instituicoes')
+#7 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Instituicoes')
+#8 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Instituicoes')
+#9 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Instituicoes', 0)
+#10 C:\xampp\htdocs\focux\home\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('instituicoes')
+#12 C:\xampp\htdocs\focux\home\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\focux\home\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-15 20:58:47 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.recomendados' doesn't exist in C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'recomendados', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('recomendados', Array)
+#2 C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('recomendados')
+#3 C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\xporn\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\xporn\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'recomendados', 'Recomendados')
+#7 C:\xampp\htdocs\xporn\home\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Recomendados')
+#8 C:\xampp\htdocs\xporn\home\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Recomendados')
+#9 C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Recomendados', 0)
+#10 C:\xampp\htdocs\xporn\home\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('recomendados')
+#12 C:\xampp\htdocs\xporn\home\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\home\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 13:21:54 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.list' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'list', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('list', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('list')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(294): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(148): Bake\Shell\Task\TemplateTask->_loadController()
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(507): Bake\Shell\Task\TemplateTask->main('list')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2019-04-26 18:27:59 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'videoviews', 'Videoviews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Videoviews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Videoviews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Videoviews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('videoviews')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:28:01 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'videoviews', 'Videoviews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Videoviews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Videoviews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Videoviews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('videoviews')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:28:13 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'videoviews', 'Videoviews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Videoviews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Videoviews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Videoviews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('videoviews')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:28:59 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'video_views', 'VideoViews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('VideoViews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('VideoViews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('VideoViews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('video_views')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:29:18 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'videoviews', 'Videoviews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Videoviews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Videoviews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Videoviews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('videoviews')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:30:53 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'video_views', 'VideoViews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('VideoViews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('VideoViews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('VideoViews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('video_views')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:31:57 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'video_views', 'VideoViews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('VideoViews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('VideoViews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('VideoViews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('video_views')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:32:01 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'videoviews', 'Videoviews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Videoviews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Videoviews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Videoviews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('videoviews')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-26 18:32:41 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videoviews' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videoviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videoviews', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videoviews')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\VideoviewsTable), Array)
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\VideoviewsTable))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\VideoviewsTable), 'video_views', 'VideoViews')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('VideoViews')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('VideoViews')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('VideoViews', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('video_views')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-04-27 02:48:49 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.videos_video_user_registers' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'videos_video_us...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('videos_video_us...', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('videos_video_us...')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'videos_video_us...', 'VideosVideoUser...')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('VideosVideoUser...')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('VideosVideoUser...')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('VideosVideoUser...', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('videos_video_us...')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-05-04 23:20:17 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.category_pageintens' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'category_pagein...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('category_pagein...', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('category_pagein...')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'category_pagein...', 'CategoryPageint...')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('CategoryPageint...')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('CategoryPageint...')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('CategoryPageint...', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('category_pagein...')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-05-04 23:21:19 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_xporn.category_itempages' doesn't exist in C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'category_itempa...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('category_itempa...', Array)
+#2 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('category_itempa...')
+#3 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'category_itempa...', 'CategoryItempag...')
+#7 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('CategoryItempag...')
+#8 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('CategoryItempag...')
+#9 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('CategoryItempag...', 0)
+#10 C:\xampp\htdocs\xporn\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('category_itempa...')
+#12 C:\xampp\htdocs\xporn\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\xporn\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-07-10 11:38:27 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux2.runnings' doesn't exist in C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'runnings', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('runnings', Array)
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('runnings')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'runnings', 'Runnings')
+#7 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Runnings')
+#8 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Runnings')
+#9 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Runnings', 0)
+#10 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('runnings')
+#12 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-07-29 23:49:08 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux2.companies' doesn't exist in C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'companies', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('companies', Array)
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('companies')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'companies', 'Companies')
+#7 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Companies')
+#8 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Companies')
+#9 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Companies', 0)
+#10 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('companies')
+#12 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2019-07-29 23:50:22 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux2.companies' doesn't exist in C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'companies', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('companies', Array)
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('companies')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'companies', 'Companies')
+#7 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Companies')
+#8 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Companies')
+#9 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Companies', 0)
+#10 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('companies')
+#12 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2020-02-17 01:14:38 Error: [ParseError] syntax error, unexpected '-', expecting '{' in C:\xampp\htdocs\viewx\src\Model\Table\Videos-recommendedsTable.php on line 24
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(114): Bake\Shell\Task\ModelTask->bakeTable(Object(Cake\ORM\Table), Array)
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Videos-recommen...')
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Videos-recommen...')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Videos-recommen...', 0)
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('videos-recommen...')
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#7 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#8 {main}
+
+
+2020-04-14 11:30:25 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux2.genres' doesn't exist in C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'genres', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('genres', Array)
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('genres')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'genres', 'Genres')
+#7 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Genres')
+#8 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Genres')
+#9 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Genres', 0)
+#10 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('genres')
+#12 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2020-06-23 23:35:34 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1932 Table 'focuxme_focux2.titles' doesn't exist in engine in C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'titles', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('titles', Array)
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('titles')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\TitlesTable), Array)
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\TitlesTable))
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\TitlesTable), 'titles', 'Titles')
+#7 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Titles')
+#8 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Titles')
+#9 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Titles', 0)
+#10 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('titles')
+#12 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2020-07-12 20:18:41 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux2.amcvendasclientes' doesn't exist in C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'amcvendasclient...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('amcvendasclient...', Array)
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('amcvendasclient...')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(415): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(231): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'amcvendas', 'Amcvendas')
+#7 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Amcvendas')
+#8 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Amcvendas')
+#9 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Amcvendas', 0)
+#10 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('amcvendas')
+#12 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
+2020-07-12 20:19:13 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'focuxme_focux2.amcvendasclientes' doesn't exist in C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'amcvendasclient...', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('amcvendasclient...', Array)
+#2 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('amcvendasclient...')
+#3 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(415): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(231): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#5 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'amcvendas', 'Amcvendas')
+#7 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Amcvendas')
+#8 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Amcvendas')
+#9 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Amcvendas', 0)
+#10 C:\xampp\htdocs\viewx\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('amcvendas')
+#12 C:\xampp\htdocs\viewx\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\viewx\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#14 {main}
+
+
