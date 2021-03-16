@@ -10,8 +10,8 @@ $this->layout = false;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <?php 
-    echo $this->Html->css('/bootstrap4/css/bootstrap.min.css', 
+    <?php
+    echo $this->Html->css('/bootstrap4/css/bootstrap.min.css',
         [
             'integrity' => 'anonymous'
         ]
@@ -43,12 +43,53 @@ $this->layout = false;
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
             <h4 class="text-white">Logout</h4>
-            <ul class="list-unstyled">        
+            <ul class="list-unstyled">
             <li>
-                <?php 
-                    if($username){
-                        echo $this->Html->link(__('Logout'), ['controller' => 'users', 'action' => 'logout']);                        
-                    }                        
+                <?php
+                    if($username)
+                    {
+                        echo $this->Html->link(__('Logout'), ['controller' => 'users', 'action' => 'logout']);
+                    }
+                ?>
+            </li>
+            <li>
+                <?php
+                    if($username && $role === "root")
+                    {
+                        echo $this->Html->link(__('Register Tables Root'), ['controller' => 'Tablesroots', 'action' => 'index']);
+                    }
+                ?>
+            </li>
+            <li>
+                <?php
+                    if(($username && $role === "admin") || $role === "root")
+                    {
+                        echo $this->Html->link(__('Register Tables Admin'), ['controller' => 'Tablesadmins', 'action' => 'index']);
+                    }
+                ?>
+            </li>
+            <li>
+                <?php
+                    if(($username && $role === "colibri") || $role === "root")
+                    {
+                        echo $this->Html->link(__('Register Tables Colibri'), ['controller' => 'Tablescolibris', 'action' => 'index']);
+                    }
+                ?>
+            </li>
+            <li>
+                <?php
+                    if(($username && $role === "tubex") || $role === "root")
+                    {
+                        echo $this->Html->link(__('Register Tables Tubex'), ['controller' => 'Tablestubex', 'action' => 'index']);
+                    }
+                ?>
+            </li>
+            <li>
+                <?php
+                    if(($username && $role === "meu_precioso") || $role === "root")
+                    {
+                        echo $this->Html->link(__('Register Tables My Precious'), ['controller' => 'Tablesmyprecious', 'action' => 'index']);
+                    }
                 ?>
             </li>
             </ul>
@@ -58,15 +99,15 @@ $this->layout = false;
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-                <strong>Admin</strong>
+            <a href="/viewx/admin" class="navbar-brand d-flex align-items-center">
+                <strong>User: <?php echo $username ?></strong>
             </a>
-            <button class="navbar-toggler" 
-                type="button" 
-                data-toggle="collapse" 
-                data-target="#navbarHeader" 
-                aria-controls="navbarHeader" 
-                aria-expanded="false" 
+            <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarHeader"
+                aria-controls="navbarHeader"
+                aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -77,48 +118,84 @@ $this->layout = false;
     <main role="main">
         <section class="jumbotron text-center" style="background-color: #dd4b39; border-radius:0px">
             <div class="container" style="color: #fff">
-                <h1 class="jumbotron-heading">SELECT AREA TO ADMIN</h1>  
-                <a href="/viewx" target="_blank" style="font-size: 30px; color: white" class="btn btn-dark">
-                    <strong>COME BACK TO SITE</strong>
-                </a> 
+                <h1 class="jumbotron-heading">SELECT AREA TO ADMIN</h1>
             </div>
         </section>
         <div class="album py-5 bg-light">
             <div class="container-fluid">
                 <div class="row">
-                    <?php foreach ($tablesadmins as $tablesadmin): ?>                  
-                        <div class="col-md-3">
-                            <div class="card mb-4 shadow-sm" style="border: 1px solid #dd4b39;">
-                                <div class="card-body">
-                                    <h4 class="card-text"><?= strtoupper(h($tablesadmin->title)); ?></h4>
-                                    <p class="card-text"><?= strtoupper(h($tablesadmin->text)); ?></p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <?php
-                                                echo $this->Html->link(
-                                                    strtoupper($tablesadmin->title),
-                                                    $tablesadmin->link,
-                                                    ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
-                                                );
-                                            ?> 
-                                        </div>                                    
+                    <?php if($role==="root"): ?>
+                        <?php foreach ($tablesroots as $tablesroot): ?>
+                            <div class="col-md-3">
+                                <div class="card mb-4 shadow-sm" style="border: 1px solid #dd4b39;">
+                                    <div class="card-body">
+                                        <h4 class="card-text"><?= strtoupper(h($tablesroot->title)); ?></h4>
+                                        <p class="card-text"><?= strtoupper(h($tablesroot->text)); ?></p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <?php
+                                                    echo $this->Html->link(
+                                                        strtoupper($tablesroot->title),
+                                                        $tablesroot->link,
+                                                        ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                    );
+                                                ?>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>               
-                    <?php endforeach; ?>
+                        <?php endforeach; ?>
+                    <?php elseif($role==="tubex"): ?>
+                        <?php foreach ($tablestubex as $tablestube): ?>
+                            <div class="col-md-3">
+                                <div class="card mb-4 shadow-sm" style="border: 1px solid #dd4b39;">
+                                    <div class="card-body">
+                                        <h4 class="card-text"><?= strtoupper(h($tablestube->title)); ?></h4>
+                                        <p class="card-text"><?= strtoupper(h($tablestube->text)); ?></p>
+
+                                        <?php if($tablestube->link == '/animes'): ?>
+                                            <p><?php echo $animes.' '.$tablestube->title.' Registrados'; ?></p>
+                                        <?php elseif($tablestube->link == '/films'):?>
+                                            <p><?php echo $films.' '.$tablestube->title.' Registrados'; ?></p>
+                                        <?php elseif($tablestube->link == '/series'):?>
+                                            <p><?php echo $series.' '.$tablestube->title.' Registrados'; ?></p>
+                                        <?php elseif($tablestube->link == '/comics'):?>
+                                            <p><?php echo $comics.' '.$tablestube->title.' Registrados'; ?></p>
+                                        <?php endif;?>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <?php
+                                                    echo $this->Html->link(
+                                                        strtoupper($tablestube->title),
+                                                        $tablestube->link,
+                                                        ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                    );
+                                                ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php elseif($role==="my_precious"): ?>
+
+                    <?php endif;?>
+
+
                 </div>
             </div>
         </div>
     </main>
         <?php
-            echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-3.3.1.slim.min.js', 
+            echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-3.3.1.slim.min.js',
             [
                 'integrity' => 'sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo',
                 'crossorigin' => 'anonymous'
             ]);
             echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-slim.min.js');
-            echo $this->Html->script('/bootstrap4/js/docs/vendor/bootstrap.bundle.js', 
+            echo $this->Html->script('/bootstrap4/js/docs/vendor/bootstrap.bundle.js',
             [
                 'integrity' => 'sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP',
                 'crossorigin' => 'anonymous'

@@ -8,10 +8,10 @@
     <table id="general" class="display" style="width:100%">
         <thead>
             <tr>
-                <th><?= $this->Paginator->sort('id') ?></th>
-                <th><?= $this->Paginator->sort('role') ?></th>
-                <th><?= $this->Paginator->sort('created') ?></th>
-                <th><?= $this->Paginator->sort('modified') ?></th>
+                <th>id</th>
+                <th>role</th>
+                <th>created</th>
+                <th>modified</th>
                 <th><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -32,10 +32,10 @@
         </tbody>
         <tfoot>
             <tr>
-                <th><?= $this->Paginator->sort('id') ?></th>
-                <th><?= $this->Paginator->sort('role') ?></th>
-                <th><?= $this->Paginator->sort('created') ?></th>
-                <th><?= $this->Paginator->sort('modified') ?></th>
+                <th>id</th>
+                <th>role</th>
+                <th>created</th>
+                <th>modified</th>to ter
                 <th><?= __('Actions') ?></th>
             </tr>
         </tfoot>

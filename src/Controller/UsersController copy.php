@@ -18,15 +18,15 @@ class UsersController extends AppController
     }
     public function index()
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root')
         {
             $this->paginate = [
                 'contain' => ['Roles'],
-            ];            
+            ];
             $users = $this->paginate($this->Users);
             $this->set(compact('users'));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
@@ -40,15 +40,15 @@ class UsersController extends AppController
     }
     public function add()
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root')
         {
             $user = $this->Users->newEntity();
 
-            if ($this->request->is('post')) 
+            if ($this->request->is('post'))
             {
                 $user = $this->Users->patchEntity($user, $this->request->getData());
 
-                if ($this->Users->save($user)) 
+                if ($this->Users->save($user))
                 {
                     $this->Flash->success2(__('The user has been saved.'));
                     return $this->redirect(['action' => 'index']);
@@ -57,25 +57,25 @@ class UsersController extends AppController
             }
             $roles = $this->Users->Roles->find('list', ['limit' => 200]);
             $this->set(compact('user', 'roles'));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function edit($id = null)
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root')
         {
             $user = $this->Users->get($id, [
                 'contain' => [],
             ]);
 
-            if ($this->request->is(['patch', 'post', 'put'])) 
+            if ($this->request->is(['patch', 'post', 'put']))
             {
                 $user = $this->Users->patchEntity($user, $this->request->getData());
 
-                if ($this->Users->save($user)) 
+                if ($this->Users->save($user))
                 {
                     $this->Flash->success2(__('The user has been saved.'));
                     return $this->redirect(['action' => 'index']);
@@ -84,41 +84,41 @@ class UsersController extends AppController
             }
             $roles = $this->Users->Roles->find('list', ['limit' => 200]);
             $this->set(compact('user', 'roles'));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function delete($id = null)
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root')
         {
             $this->request->allowMethod(['post', 'delete']);
             $user = $this->Users->get($id);
 
-            if ($this->Users->delete($user)) 
+            if ($this->Users->delete($user))
             {
                 $this->Flash->success2(__('The user has been deleted.'));
-            } 
-            else 
+            }
+            else
             {
                 $this->Flash->error2(__('The user could not be deleted. Please, try again.'));
             }
             return $this->redirect(['action' => 'index']);
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function login()
     {
-        if ($this->request->is('post')) 
+        if ($this->request->is('post'))
         {
             $user = $this->Auth->identify();
 
-            if ($user) 
+            if ($user)
             {
                 $this->Auth->setUser($user);
                 return $this->redirect(['controller' => 'Users', 'action' => 'mainmenu']);
@@ -133,28 +133,30 @@ class UsersController extends AppController
     public function mainmenu()
     {
         {
-            if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'admin') 
+            if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'admin')
             {
                 $this->loadModel('Tablesadmins');
                 $this->loadModel('Logos');
+
                 $tablesadmins = $this->Tablesadmins->find('all');
                 $logos = $this->Logos->find('all');
+
                 $this->set(compact(
                     [
                         'tablesadmins',
                         'logos',
                     ]
                 ));
-            } 
-            elseif ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root') 
+            }
+            elseif ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root')
             {
                 return $this->redirect(['controller' => 'users', 'action' => 'mainmenuroot']);
-            } 
-            elseif ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'colibri') 
+            }
+            elseif ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'colibri')
             {
                 return $this->redirect(['controller' => 'users', 'action' => 'colibri']);
-            } 
-            else 
+            }
+            else
             {
                 return $this->redirect(['controller' => 'videos', 'action' => 'index']);
             }
@@ -162,15 +164,15 @@ class UsersController extends AppController
     }
     public function register()
     {
-        if (!$this->Auth->user()) 
+        if (!$this->Auth->user())
         {
             $user = $this->Users->newEntity();
 
-            if ($this->request->is('post')) 
+            if ($this->request->is('post'))
             {
                 $user = $this->Users->patchEntity($user, $this->request->getData());
 
-                if ($this->Users->save($user)) 
+                if ($this->Users->save($user))
                 {
                     $this->Flash->success2(__('The user has been saved.'));
                     return $this->redirect(['action' => 'index']);
@@ -179,23 +181,23 @@ class UsersController extends AppController
             }
             $roles = $this->Users->Roles->find('list', ['limit' => 200]);
             $this->set(compact('user', 'roles'));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function register2()
     {
-        if (!$this->Auth->user()) 
+        if (!$this->Auth->user())
         {
             $user = $this->Users->newEntity();
 
-            if ($this->request->is('post')) 
+            if ($this->request->is('post'))
             {
                 $user = $this->Users->patchEntity($user, $this->request->getData());
 
-                if ($this->Users->save($user)) 
+                if ($this->Users->save($user))
                 {
                     $this->Flash->success2(__('The user has been saved.'));
                     return $this->redirect(['action' => 'index']);
@@ -204,15 +206,15 @@ class UsersController extends AppController
             }
             $roles = $this->Users->Roles->find('list', ['limit' => 200]);
             $this->set(compact('user', 'roles'));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function profile($userName = null)
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common')
         {
             $this->viewBuilder()->setLayout('adminlte_videos');
             $this->loadModel('CategoryVideos');
@@ -223,25 +225,25 @@ class UsersController extends AppController
             $categoryVideos = $this->CategoryVideos->find('all');
             $user = $this->Users->findByUsername($userName)->firstOrFail();
 
-            if ($this->ImageProfiles->find('all')->where(['ImageProfiles.users_id =' => $user->id])->first() != null) 
+            if ($this->ImageProfiles->find('all')->where(['ImageProfiles.users_id =' => $user->id])->first() != null)
             {
                 $imageProfile = $this->ImageProfiles->find('all')->where(['ImageProfiles.users_id =' => $user->id])->firstOrFail();
-            } 
-            else 
+            }
+            else
             {
                 $imageProfile = [];
             }
             $imageProfileUserAnonymous = null;
 
-            if (!sizeof($imageProfile)) 
+            if (!sizeof($imageProfile))
             {
                 $userAnonymous = $this->Users->find('all')->where(['Users.roles_id =' => 4])->firstOrFail();
                 $imageProfile = $this->ImageProfiles->find('all')->where(['ImageProfiles.users_id =' => $userAnonymous->id])->firstOrFail();
             }
-            if ($userName == $this->Auth->user('username')) 
+            if ($userName == $this->Auth->user('username'))
             {
                 $usernameEdit = true;
-            } 
+            }
             else
             {
                 $usernameEdit = false;
@@ -255,15 +257,15 @@ class UsersController extends AppController
                     'imageProfile' => $imageProfile,
                     'page' => 'profile',
                 ]);
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function editcommon($id = null)
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common')
         {
             $this->viewBuilder()->setLayout('adminlte_videos');
             $this->loadModel('CategoryVideos');
@@ -274,10 +276,10 @@ class UsersController extends AppController
             $user = $this->Users->get($id, [
                 'contain' => [],
             ]);
-            if ($this->request->is(['patch', 'post', 'put'])) 
+            if ($this->request->is(['patch', 'post', 'put']))
             {
                 $user = $this->Users->patchEntity($user, $this->request->getData());
-                if ($this->Users->save($user)) 
+                if ($this->Users->save($user))
                 {
                     $this->Flash->success2(__('The user has been saved.'));
                     return $this->redirect(['action' => 'index']);
@@ -286,30 +288,30 @@ class UsersController extends AppController
             }
             $roles = $this->Users->Roles->find('list', ['limit' => 200]);
             $this->set(compact('user', 'roles', 'footers', 'categoryVideos'));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function deletecommon($id = null)
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common')
         {
             $this->request->allowMethod(['post', 'delete']);
             $user = $this->Users->get($id);
 
-            if ($this->Users->delete($user)) 
+            if ($this->Users->delete($user))
             {
                 $this->Flash->success2(__('The user has been deleted.'));
                 $this->Auth->logout();
-            } 
-            else 
+            }
+            else
             {
                 $this->Flash->error2(__('The user could not be deleted. Please, try again.'));
             }
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
@@ -317,7 +319,7 @@ class UsersController extends AppController
     public function mainmenuroot()
     {
 
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'root')
         {
             $this->loadModel('Tablesroots');
             $this->loadModel('Logos');
@@ -329,15 +331,15 @@ class UsersController extends AppController
                     'logos',
                 ]
             ));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
     }
     public function colibri()
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'colibri') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'colibri')
         {
             $this->loadModel('Tablescolibris');
             $this->loadModel('Logos');
@@ -349,8 +351,8 @@ class UsersController extends AppController
                     'logos',
                 ]
             ));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }
@@ -365,11 +367,11 @@ class UsersController extends AppController
         $categoryVideos = $this->CategoryVideos->find('all');
         $imageProfile = $this->ImageProfiles->newEntity();
 
-        if ($this->request->is('post')) 
+        if ($this->request->is('post'))
         {
             $user = $this->Users->findByUsername($userName)->firstOrFail();
 
-            if ($this->ImageProfiles->find('all')->where(['ImageProfiles.users_id =' => $user->id])->first() != null) 
+            if ($this->ImageProfiles->find('all')->where(['ImageProfiles.users_id =' => $user->id])->first() != null)
             {
                 $imageProfile = $this->ImageProfiles->find('all')->where(['ImageProfiles.users_id =' => $user->id])->firstOrFail();
                 $this->deletePhoto($imageProfile);
@@ -391,7 +393,7 @@ class UsersController extends AppController
         $filename = $imageProfile->image;
         $dir = WWW_ROOT . 'img' . DS . 'galerys' . DS . $galery . DS . $filename;
 
-        if ($this->ImageProfiles->delete($imageProfile)) 
+        if ($this->ImageProfiles->delete($imageProfile))
         {
             $file = new File($dir);
             $file->delete();
@@ -400,7 +402,7 @@ class UsersController extends AppController
     }
     public function updatePassword($id = null)
     {
-        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common') 
+        if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'common')
         {
             $this->viewBuilder()->setLayout('adminlte_videos');
             $this->loadModel('CategoryVideos');
@@ -413,11 +415,11 @@ class UsersController extends AppController
                 'contain' => [],
             ]);
 
-            if ($this->request->is(['patch', 'post', 'put'])) 
+            if ($this->request->is(['patch', 'post', 'put']))
             {
                 $user = $this->Users->patchEntity($user, $this->request->getData());
 
-                if ($this->Users->save($user)) 
+                if ($this->Users->save($user))
                 {
                     $this->Flash->success2(__('The user has been saved.'));
                     return $this->redirect(['action' => 'index']);
@@ -426,8 +428,8 @@ class UsersController extends AppController
             }
             $roles = $this->Users->Roles->find('list', ['limit' => 200]);
             $this->set(compact('user', 'roles', 'footers', 'categoryVideos'));
-        } 
-        else 
+        }
+        else
         {
             return $this->redirect(['controller' => 'videos', 'action' => 'index']);
         }

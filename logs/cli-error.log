@@ -520,3 +520,45 @@ Stack Trace:
 #14 {main}
 
 
+2021-03-16 01:53:53 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Database\Connection.php on line 177
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Database\Connection.php(118): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Mysql), Array)
+#1 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(96): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(195): Cake\Datasource\ConnectionManager::get('default')
+#5 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(112): Bake\Shell\Task\ModelTask->getTableObject('Tablesmyprecius', 'tablesmyprecius')
+#6 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Tablesmyprecius')
+#7 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Tablesmyprecius')
+#8 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Tablesmyprecius', 0)
+#9 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#10 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('tablesmyprecius')
+#11 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#12 D:\xammp\htdocs\focux\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2021-03-16 01:56:54 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Database\Connection.php on line 177
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Database\Connection.php(118): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Mysql), Array)
+#1 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(96): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(195): Cake\Datasource\ConnectionManager::get('default')
+#5 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(112): Bake\Shell\Task\ModelTask->getTableObject('Tablesmypreciou...', 'tablesmypreciou...')
+#6 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Tablesmypreciou...')
+#7 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\BakeShell.php(264): Bake\Shell\Task\ModelTask->main('Tablesmypreciou...')
+#8 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Tablesmypreciou...', 0)
+#9 D:\xammp\htdocs\focux\vendor\cakephp\bake\src\Shell\BakeShell.php(265): Cake\Collection\Collection->each(Object(Closure))
+#10 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Console\Shell.php(493): Bake\Shell\BakeShell->all('tablesmypreciou...')
+#11 D:\xammp\htdocs\focux\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#12 D:\xammp\htdocs\focux\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
