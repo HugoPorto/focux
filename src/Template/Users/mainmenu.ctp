@@ -62,7 +62,7 @@ $this->layout = false;
             </li>
             <li>
                 <?php
-                    if(($username && $role === "admin") || $role === "root")
+                    if($username && $role === "admin")
                     {
                         echo $this->Html->link(__('Register Tables Admin'), ['controller' => 'Tablesadmins', 'action' => 'index']);
                     }
@@ -70,7 +70,7 @@ $this->layout = false;
             </li>
             <li>
                 <?php
-                    if(($username && $role === "colibri") || $role === "root")
+                    if($username && $role === "colibri")
                     {
                         echo $this->Html->link(__('Register Tables Colibri'), ['controller' => 'Tablescolibris', 'action' => 'index']);
                     }
@@ -78,7 +78,7 @@ $this->layout = false;
             </li>
             <li>
                 <?php
-                    if(($username && $role === "tubex") || $role === "root")
+                    if($username && $role === "tubex")
                     {
                         echo $this->Html->link(__('Register Tables Tubex'), ['controller' => 'Tablestubex', 'action' => 'index']);
                     }
@@ -86,7 +86,7 @@ $this->layout = false;
             </li>
             <li>
                 <?php
-                    if(($username && $role === "meu_precioso") || $role === "root")
+                    if($username && $role === "my_precious")
                     {
                         echo $this->Html->link(__('Register Tables My Precious'), ['controller' => 'Tablesmyprecious', 'action' => 'index']);
                     }
@@ -114,20 +114,19 @@ $this->layout = false;
         </div>
     </div>
 </header>
-  <body>
+  <body style="background-color: #F8F4FA">
     <main role="main">
         <section class="jumbotron text-center" style="background-color: #dd4b39; border-radius:0px">
             <div class="container" style="color: #fff">
                 <h1 class="jumbotron-heading">SELECT AREA TO ADMIN</h1>
             </div>
         </section>
-        <div class="album py-5 bg-light">
-            <div class="container-fluid">
+            <div class="container-fluid" style="padding-top:20px">
                 <div class="row">
                     <?php if($role==="root"): ?>
                         <?php foreach ($tablesroots as $tablesroot): ?>
                             <div class="col-md-3">
-                                <div class="card mb-4 shadow-sm" style="border: 1px solid #dd4b39;">
+                                <div class="card mb-4 shadow-sm">
                                     <div class="card-body">
                                         <h4 class="card-text"><?= strtoupper(h($tablesroot->title)); ?></h4>
                                         <p class="card-text"><?= strtoupper(h($tablesroot->text)); ?></p>
@@ -149,7 +148,7 @@ $this->layout = false;
                     <?php elseif($role==="tubex"): ?>
                         <?php foreach ($tablestubex as $tablestube): ?>
                             <div class="col-md-3">
-                                <div class="card mb-4 shadow-sm" style="border: 1px solid #dd4b39;">
+                                <div class="card mb-4 shadow-sm">
                                     <div class="card-body">
                                         <h4 class="card-text"><?= strtoupper(h($tablestube->title)); ?></h4>
                                         <p class="card-text"><?= strtoupper(h($tablestube->text)); ?></p>
@@ -180,13 +179,31 @@ $this->layout = false;
                             </div>
                         <?php endforeach; ?>
                     <?php elseif($role==="my_precious"): ?>
-
+                        <?php foreach ($tablesmyprecious as $tablesmyprecious): ?>
+                            <div class="col-md-3">
+                                <div class="card mb-4 shadow-sm">
+                                    <div class="card-body">
+                                        <h4 class="card-text"><?= strtoupper(h($tablesmyprecious->title)); ?></h4>
+                                        <p class="card-text"><?= strtoupper(h($tablesmyprecious->text)); ?></p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <?php
+                                                    echo $this->Html->link(
+                                                        strtoupper($tablesmyprecious->title),
+                                                        $tablesmyprecious->link,
+                                                        ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                    );
+                                                ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
                     <?php endif;?>
-
-
                 </div>
             </div>
-        </div>
+
     </main>
         <?php
             echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-3.3.1.slim.min.js',

@@ -178,6 +178,17 @@ class UsersController extends AppController
                 ]
             ));
         }
+        else if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'my_precious')
+        {
+            $this->loadModel('Tablesmyprecious');
+            $tablesmyprecious = $this->Tablesmyprecious->find('all');
+
+            $this->set(compact(
+                [
+                    'tablesmyprecious'
+                ]
+            ));
+        }
         else
         {
             $this->logout();

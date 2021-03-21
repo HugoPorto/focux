@@ -9,7 +9,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $title
  * @property string $page
- * @property \Cake\I18n\FrozenDate $created
+ * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
  */
 class MypreciousTitle extends Entity
