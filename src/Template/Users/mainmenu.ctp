@@ -99,7 +99,7 @@ $this->layout = false;
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-            <a href="/viewx/admin" class="navbar-brand d-flex align-items-center">
+            <a href="/focux" class="navbar-brand d-flex align-items-center">
                 <strong>User: <?php echo $username ?></strong>
             </a>
             <button class="navbar-toggler"
@@ -116,11 +116,6 @@ $this->layout = false;
 </header>
   <body style="background-color: #F8F4FA">
     <main role="main">
-        <section class="jumbotron text-center" style="background-color: #dd4b39; border-radius:0px">
-            <div class="container" style="color: #fff">
-                <h1 class="jumbotron-heading">SELECT AREA TO ADMIN</h1>
-            </div>
-        </section>
             <div class="container-fluid" style="padding-top:20px">
                 <div class="row">
                     <?php if($role==="root"): ?>
