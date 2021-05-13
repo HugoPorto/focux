@@ -4,7 +4,7 @@
  * @var \App\Model\Entity\Recipe $recipe
  */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-3 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Form->postLink(
@@ -13,29 +13,25 @@
                 ['confirm' => __('Are you sure you want to delete # {0}?', $recipe->id)]
             )
         ?></li>
-        <li><?= $this->Html->link(__('List Recipes'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Mounths'), ['controller' => 'Mounths', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Mounth'), ['controller' => 'Mounths', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List'), ['action' => 'index']) ?></li>
     </ul>
 </nav>
-<div class="recipes form large-9 medium-8 columns content">
+<div class="recipes form large-10 medium-9 columns content">
     <?= $this->Form->create($recipe) ?>
     <fieldset>
         <legend><?= __('Edit Recipe') ?></legend>
         <?php
-            echo $this->Form->control('salarys');
-            echo $this->Form->control('rentals');
-            echo $this->Form->control('prolabores');
-            echo $this->Form->control('other_fixed_revenues');
-            echo $this->Form->control('dividends');
-            echo $this->Form->control('commissions');
-            echo $this->Form->control('thirteen_salarys');
-            echo $this->Form->control('bonus');
-            echo $this->Form->control('others');
-            echo $this->Form->control('mounths_id', ['options' => $mounths, 'empty' => true]);
-            echo $this->Form->control('users_id', ['options' => $users]);
+            echo $this->Form->control('salarys', ['label' => 'Salary']);
+            echo $this->Form->control('rentals', ['label' => 'Rental']);
+            echo $this->Form->control('prolabores', ['label' => 'Prolabore']);
+            echo $this->Form->control('other_fixed_revenues', ['label' => 'Other Fixed Revenue']);
+            echo $this->Form->control('dividends', ['label' => 'Dividend']);
+            echo $this->Form->control('commissions', ['label' => 'Commission']);
+            echo $this->Form->control('thirteen_salarys', ['label' => 'Thirteen Salary']);
+            echo $this->Form->control('bonus', ['label' => 'Salary']);
+            echo $this->Form->control('others', ['label' => 'Bonus']);
+            echo $this->Form->control('mounths_id', ['options' => $mounths, 'empty' => true, 'label' => 'Mounth']);
+            echo $this->Form->control('users_id', ['options' => $users, 'label' => 'User']);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

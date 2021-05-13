@@ -4,23 +4,23 @@
  * @var \App\Model\Entity\Tablesmyprecious[]|\Cake\Collection\CollectionInterface $tablesmyprecious
  */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-3 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Tablesmyprecious'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('New'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
-<div class="tablesmyprecious index large-9 medium-8 columns content">
-    <h3><?= __('Tablesmyprecious') ?></h3>
-    <table cellpadding="0" cellspacing="0">
+<div class="tablesmyprecious index large-10 medium-9 columns content">
+    <h3><?= __('Tables Register') ?></h3>
+    <table id="general" class="display" style="width:100%">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('title') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('text') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('link') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('created') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
+                <th scope="col">Code</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Link Table</th>
+                <th scope="col">Created</th>
+                <th scope="col">Modified</th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>

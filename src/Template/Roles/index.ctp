@@ -35,7 +35,7 @@
                 <th>id</th>
                 <th>role</th>
                 <th>created</th>
-                <th>modified</th>to ter
+                <th>modified</th>
                 <th><?= __('Actions') ?></th>
             </tr>
         </tfoot>

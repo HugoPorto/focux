@@ -4,48 +4,44 @@
  * @var \App\Model\Entity\Recipe $recipe
  */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-3 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Recipe'), ['action' => 'edit', $recipe->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Recipe'), ['action' => 'delete', $recipe->id], ['confirm' => __('Are you sure you want to delete # {0}?', $recipe->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Recipes'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Recipe'), ['action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Mounths'), ['controller' => 'Mounths', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Mounth'), ['controller' => 'Mounths', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('Edit'), ['action' => 'edit', $recipe->id]) ?> </li>
+        <li><?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $recipe->id], ['confirm' => __('Are you sure you want to delete # {0}?', $recipe->id)]) ?> </li>
+        <li><?= $this->Html->link(__('List'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New'), ['action' => 'add']) ?> </li>
     </ul>
 </nav>
-<div class="recipes view large-9 medium-8 columns content">
-    <h3><?= h($recipe->id) ?></h3>
+<div class="recipes view large-10 medium-9 columns content">
+    <h3><?= h('Code: '.$recipe->id.' | Mounth: '.$recipe->mounth->mounth) ?></h3>
     <table class="vertical-table">
         <tr>
-            <th scope="row"><?= __('Salarys') ?></th>
+            <th scope="row"><?= __('Salary') ?></th>
             <td><?= h($recipe->salarys) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Rentals') ?></th>
+            <th scope="row"><?= __('Rental') ?></th>
             <td><?= h($recipe->rentals) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Prolabores') ?></th>
+            <th scope="row"><?= __('Prolabore') ?></th>
             <td><?= h($recipe->prolabores) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Other Fixed Revenues') ?></th>
+            <th scope="row"><?= __('Other Fixed Revenue') ?></th>
             <td><?= h($recipe->other_fixed_revenues) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Dividends') ?></th>
+            <th scope="row"><?= __('Dividend') ?></th>
             <td><?= h($recipe->dividends) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Commissions') ?></th>
+            <th scope="row"><?= __('Commission') ?></th>
             <td><?= h($recipe->commissions) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Thirteen Salarys') ?></th>
+            <th scope="row"><?= __('Thirteen Salary') ?></th>
             <td><?= h($recipe->thirteen_salarys) ?></td>
         </tr>
         <tr>
@@ -58,7 +54,7 @@
         </tr>
         <tr>
             <th scope="row"><?= __('Mounth') ?></th>
-            <td><?= $recipe->has('mounth') ? $this->Html->link($recipe->mounth->id, ['controller' => 'Mounths', 'action' => 'view', $recipe->mounth->id]) : '' ?></td>
+            <td><?= $recipe->has('mounth') ? $this->Html->link($recipe->mounth->mounth, ['controller' => 'Mounths', 'action' => 'view', $recipe->mounth->id]) : '' ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('User') ?></th>

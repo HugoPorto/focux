@@ -33,7 +33,7 @@ class MounthsTable extends Table
         parent::initialize($config);
 
         $this->setTable('mounths');
-        $this->setDisplayField('id');
+        $this->setDisplayField('mounth');
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
