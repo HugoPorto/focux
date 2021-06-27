@@ -37,6 +37,11 @@ class TablesmypreciousTable extends Table
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
+
+        $this->belongsTo('PageCategorys', [
+            'foreignKey' => 'categorys_id',
+            'joinType' => 'INNER'
+        ]);
     }
 
     /**
@@ -70,5 +75,12 @@ class TablesmypreciousTable extends Table
             ->notEmpty('link');
 
         return $validator;
+    }
+
+    public function buildRules(RulesChecker $rules)
+    {
+        $rules->add($rules->existsIn(['categorys_id'], 'PageCategorys'));
+
+        return $rules;
     }
 }

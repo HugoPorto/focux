@@ -33,6 +33,10 @@
             <td><?= $this->Number->format($tablesmyprecious->id) ?></td>
         </tr>
         <tr>
+            <th scope="row"><?= __('Page Category') ?></th>
+            <td><?= $tablesmyprecious->has('page_category') ? $this->Html->link($tablesmyprecious->page_category->category, ['controller' => 'PageCategorys', 'action' => 'view', $tablesmyprecious->page_category->id]) : '' ?></td>
+        </tr>
+        <tr>
             <th scope="row"><?= __('Created') ?></th>
             <td><?= h($tablesmyprecious->created) ?></td>
         </tr>

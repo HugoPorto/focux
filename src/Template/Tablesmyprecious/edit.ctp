@@ -24,6 +24,7 @@
             echo $this->Form->control('title');
             echo $this->Form->control('text');
             echo $this->Form->control('link');
+            echo $this->Form->control('categorys_id', ['options' => $pageCategorys]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

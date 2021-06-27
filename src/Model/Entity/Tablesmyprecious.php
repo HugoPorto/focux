@@ -29,6 +29,7 @@ class Tablesmyprecious extends Entity
         'title' => true,
         'text' => true,
         'link' => true,
+        'categorys_id' => true,
         'created' => true,
         'modified' => true
     ];

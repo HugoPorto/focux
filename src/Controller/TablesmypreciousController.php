@@ -20,6 +20,10 @@ class TablesmypreciousController extends AppController
      */
     public function index()
     {
+        $this->paginate = [
+            'contain' => ['PageCategorys']
+        ];
+
         $tablesmyprecious = $this->paginate($this->Tablesmyprecious);
 
         $this->set(compact('tablesmyprecious'));
@@ -35,7 +39,7 @@ class TablesmypreciousController extends AppController
     public function view($id = null)
     {
         $tablesmyprecious = $this->Tablesmyprecious->get($id, [
-            'contain' => []
+            'contain' => ['PageCategorys']
         ]);
 
         $this->set('tablesmyprecious', $tablesmyprecious);
@@ -68,7 +72,7 @@ class TablesmypreciousController extends AppController
      * @return \Cake\Http\Response|null Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function edit($id = null)
+    public function edit($id = null, $pageCategorysId = null)
     {
         $tablesmyprecious = $this->Tablesmyprecious->get($id, [
             'contain' => []
@@ -82,7 +86,13 @@ class TablesmypreciousController extends AppController
             }
             $this->Flash->error(__('The tablesmyprecious could not be saved. Please, try again.'));
         }
-        $this->set(compact('tablesmyprecious'));
+
+        $pageCategorys = $this->Tablesmyprecious->PageCategorys->find('list',
+            [
+                'limit' => 50000,
+            ]);
+
+        $this->set(compact('tablesmyprecious', 'pageCategorys'));
     }
 
     /**

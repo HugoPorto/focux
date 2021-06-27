@@ -116,102 +116,101 @@ $this->layout = false;
 </header>
   <body style="background-color: #F8F4FA">
     <main role="main">
-            <div class="container-fluid" style="padding-top:20px">
-                <div class="row">
-                    <?php if($role==="root"): ?>
-                        <?php foreach ($tablesroots as $tablesroot): ?>
-                            <div class="col-md-3">
-                                <div class="card mb-4 shadow-sm">
-                                    <div class="card-body">
-                                        <h4 class="card-text"><?= strtoupper(h($tablesroot->title)); ?></h4>
-                                        <p class="card-text"><?= strtoupper(h($tablesroot->text)); ?></p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <?php
-                                                    echo $this->Html->link(
-                                                        strtoupper($tablesroot->title),
-                                                        $tablesroot->link,
-                                                        ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
-                                                    );
-                                                ?>
-                                            </div>
+        <div class="container-fluid" style="padding-top:20px">
+            <div class="row">
+                <?php if($role==="root"): ?>
+                    <?php foreach ($tablesroots as $tablesroot): ?>
+                        <div class="col-md-3">
+                            <div class="card mb-4 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-text"><?= strtoupper(h($tablesroot->title)); ?></h4>
+                                    <p class="card-text"><?= strtoupper(h($tablesroot->text)); ?></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <?php
+                                                echo $this->Html->link(
+                                                    strtoupper($tablesroot->title),
+                                                    $tablesroot->link,
+                                                    ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                );
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        <?php endforeach; ?>
-                    <?php elseif($role==="tubex"): ?>
-                        <?php foreach ($tablestubex as $tablestube): ?>
-                            <div class="col-md-3">
-                                <div class="card mb-4 shadow-sm">
-                                    <div class="card-body">
-                                        <h4 class="card-text"><?= strtoupper(h($tablestube->title)); ?></h4>
-                                        <p class="card-text"><?= strtoupper(h($tablestube->text)); ?></p>
+                        </div>
+                    <?php endforeach; ?>
+                <?php elseif($role==="tubex"): ?>
+                    <?php foreach ($tablestubex as $tablestube): ?>
+                        <div class="col-md-3">
+                            <div class="card mb-4 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-text"><?= strtoupper(h($tablestube->title)); ?></h4>
+                                    <p class="card-text"><?= strtoupper(h($tablestube->text)); ?></p>
 
-                                        <?php if($tablestube->link == '/animes'): ?>
-                                            <p><?php echo $animes.' '.$tablestube->title.' Registrados'; ?></p>
-                                        <?php elseif($tablestube->link == '/films'):?>
-                                            <p><?php echo $films.' '.$tablestube->title.' Registrados'; ?></p>
-                                        <?php elseif($tablestube->link == '/series'):?>
-                                            <p><?php echo $series.' '.$tablestube->title.' Registrados'; ?></p>
-                                        <?php elseif($tablestube->link == '/comics'):?>
-                                            <p><?php echo $comics.' '.$tablestube->title.' Registrados'; ?></p>
-                                        <?php endif;?>
+                                    <?php if($tablestube->link == '/animes'): ?>
+                                        <p><?php echo $animes.' '.$tablestube->title.' Registrados'; ?></p>
+                                    <?php elseif($tablestube->link == '/films'):?>
+                                        <p><?php echo $films.' '.$tablestube->title.' Registrados'; ?></p>
+                                    <?php elseif($tablestube->link == '/series'):?>
+                                        <p><?php echo $series.' '.$tablestube->title.' Registrados'; ?></p>
+                                    <?php elseif($tablestube->link == '/comics'):?>
+                                        <p><?php echo $comics.' '.$tablestube->title.' Registrados'; ?></p>
+                                    <?php endif;?>
 
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <?php
-                                                    echo $this->Html->link(
-                                                        strtoupper($tablestube->title),
-                                                        $tablestube->link,
-                                                        ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
-                                                    );
-                                                ?>
-                                            </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <?php
+                                                echo $this->Html->link(
+                                                    strtoupper($tablestube->title),
+                                                    $tablestube->link,
+                                                    ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                );
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        <?php endforeach; ?>
-                    <?php elseif($role==="my_precious"): ?>
-                        <?php foreach ($tablesmyprecious as $tablesmyprecious): ?>
-                            <div class="col-md-3">
-                                <div class="card mb-4 shadow-sm">
-                                    <div class="card-body">
-                                        <h4 class="card-text"><?= strtoupper(h($tablesmyprecious->title)); ?></h4>
-                                        <p class="card-text"><?= strtoupper(h($tablesmyprecious->text)); ?></p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="btn-group">
-                                                <?php
-                                                    echo $this->Html->link(
-                                                        strtoupper($tablesmyprecious->title),
-                                                        $tablesmyprecious->link,
-                                                        ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
-                                                    );
-                                                ?>
-                                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php elseif($role==="my_precious"): ?>
+                    <?php foreach ($tablesmyprecious as $tablesmyprecious): ?>
+                        <div class="col-md-3">
+                            <div class="card mb-4 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-text"><?= strtoupper(h($tablesmyprecious->title)); ?></h4>
+                                    <p class="card-text"><?= strtoupper(h($tablesmyprecious->text)); ?></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <?php
+                                                echo $this->Html->link(
+                                                    strtoupper($tablesmyprecious->title),
+                                                    $tablesmyprecious->link,
+                                                    ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                );
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        <?php endforeach; ?>
-                    <?php endif;?>
-                </div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php endif;?>
             </div>
-
+        </div>
     </main>
-        <?php
-            echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-3.3.1.slim.min.js',
-            [
-                'integrity' => 'sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo',
-                'crossorigin' => 'anonymous'
-            ]);
-            echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-slim.min.js');
-            echo $this->Html->script('/bootstrap4/js/docs/vendor/bootstrap.bundle.js',
-            [
-                'integrity' => 'sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP',
-                'crossorigin' => 'anonymous'
-            ]);
-        ?>
+    <?php
+        echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-3.3.1.slim.min.js',
+        [
+            'integrity' => 'sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo',
+            'crossorigin' => 'anonymous'
+        ]);
+        echo $this->Html->script('/bootstrap4/js/docs/vendor/jquery-slim.min.js');
+        echo $this->Html->script('/bootstrap4/js/docs/vendor/bootstrap.bundle.js',
+        [
+            'integrity' => 'sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP',
+            'crossorigin' => 'anonymous'
+        ]);
+    ?>
   </body>
 </html>

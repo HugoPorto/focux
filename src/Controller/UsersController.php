@@ -146,8 +146,10 @@ class UsersController extends AppController
         {
             $this->loadModel('Tablesroots');
             $this->loadModel('Logos');
+
             $tablesroots = $this->Tablesroots->find('all');
             $logos = $this->Logos->find('all');
+
             $this->set(compact(
                 [
                     'tablesroots',

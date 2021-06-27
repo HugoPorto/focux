@@ -11,7 +11,7 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Maintenance');
         $this->loadComponent('Flash');
-        $this->loadComponent('Auth', [            
+        $this->loadComponent('Auth', [
             'authenticate' => [
                 'Form' => [
                     'fields' => [
@@ -19,11 +19,11 @@ class AppController extends Controller
                         'password' => 'password'
                     ]
                 ]
-            ], 
+            ],
             'logoutRedirect' => [
                 'controller' => 'users', 'action' => 'login'
             ]
-    
+
         ]);
 
         /*
@@ -42,18 +42,19 @@ class AppController extends Controller
         }else{
             $roleDefined = 'common';
         }
-        
-        $this->loadModel('Titles');
+
+        $this->loadModel('MypreciousTitles');
         $this->loadModel('Subtitles');
         $this->loadModel('MyCourses');
-        $titles = $this->Titles->find('all')->first();
+
+        $titles = $this->MypreciousTitles->find('all')->first();
         $subtitles = $this->Subtitles->find('all')->first();
-        $myCourses = $this->MyCourses->find('all',
-        [
-            'conditions' => [
-                'MyCourses.users_id =' => $this->Auth->user('id')
-            ]
-        ])->first();
+        // $myCourses = $this->MyCourses->find('all',
+        // [
+        //     'conditions' => [
+        //         'MyCourses.users_id =' => $this->Auth->user('id')
+        //     ]
+        // ])->first();
 
         $this->set(
         [
@@ -61,7 +62,7 @@ class AppController extends Controller
             'role' => $roleDefined,
             'title' => $titles->title,
             'subtitle' => $subtitles->subtitle,
-            'myCourses' => $myCourses
+            // 'myCourses' => $myCourses
         ]);
     }
 }

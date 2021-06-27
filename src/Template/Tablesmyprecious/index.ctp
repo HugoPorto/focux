@@ -19,6 +19,7 @@
                 <th scope="col">Title</th>
                 <th scope="col">Description</th>
                 <th scope="col">Link Table</th>
+                <th scope="col">Category Page</th>
                 <th scope="col">Created</th>
                 <th scope="col">Modified</th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
@@ -31,11 +32,12 @@
                 <td><?= h($tablesmyprecious->title) ?></td>
                 <td><?= h($tablesmyprecious->text) ?></td>
                 <td><?= h($tablesmyprecious->link) ?></td>
+                <td><?= $tablesmyprecious->has('page_category') ? $this->Html->link($tablesmyprecious->page_category->category, ['controller' => 'PageCategorys', 'action' => 'view', $tablesmyprecious->page_category->id]) : '' ?></td>
                 <td><?= h($tablesmyprecious->created) ?></td>
                 <td><?= h($tablesmyprecious->modified) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $tablesmyprecious->id]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $tablesmyprecious->id]) ?>
+                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $tablesmyprecious->id, $tablesmyprecious->page_category->id]) ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $tablesmyprecious->id], ['confirm' => __('Are you sure you want to delete # {0}?', $tablesmyprecious->id)]) ?>
                 </td>
             </tr>

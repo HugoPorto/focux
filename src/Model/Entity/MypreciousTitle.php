@@ -27,6 +27,7 @@ class MypreciousTitle extends Entity
     protected $_accessible = [
         'title' => true,
         'page' => true,
+        'categorys_id' => true,
         'created' => true,
         'modified' => true
     ];
