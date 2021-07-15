@@ -164,6 +164,7 @@ class UsersController extends AppController
             $this->loadModel('Films');
             $this->loadModel('Series');
             $this->loadModel('Comics');
+
             $tablestubex = $this->Tablestubex->find('all');
             $animes = $this->Animes->find('all')->count();
             $films = $this->Films->find('all')->count();
@@ -183,11 +184,27 @@ class UsersController extends AppController
         else if ($this->Roles->get($this->Auth->user()['roles_id'])->role == 'my_precious')
         {
             $this->loadModel('Tablesmyprecious');
-            $tablesmyprecious = $this->Tablesmyprecious->find('all');
+
+            $tables_myprecious_general = $this->Tablesmyprecious->find('all', [
+                'contain' => 'PageCategorys',
+                'conditions' =>
+                    [
+                        'PageCategorys.category =' => 'General'
+                    ]
+            ]);
+
+            $tables_myprecious_manager = $this->Tablesmyprecious->find('all', [
+                'contain' => 'PageCategorys',
+                'conditions' =>
+                    [
+                        'PageCategorys.category =' => 'Manager'
+                    ]
+            ]);
 
             $this->set(compact(
                 [
-                    'tablesmyprecious'
+                    'tables_myprecious_general',
+                    'tables_myprecious_manager'
                 ]
             ));
         }

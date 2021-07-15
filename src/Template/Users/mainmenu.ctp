@@ -1,6 +1,4 @@
-<?php
-$this->layout = false;
-?>
+<?php $this->layout = false; ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,12 +9,14 @@ $this->layout = false;
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php
+
     echo $this->Html->css('/bootstrap4/css/bootstrap.min.css',
         [
             'integrity' => 'anonymous'
-        ]
-    );
+        ]);
+
     echo $this->Html->css('/bootstrap4/css/docs/vendor/album.css');
+
     ?>
 
     <style>
@@ -31,7 +31,9 @@ $this->layout = false;
         }
       }
     </style>
+
     <?= $this->element('favicon'); ?>
+
   </head>
 <header>
     <div class="collapse bg-dark" id="navbarHeader">
@@ -174,27 +176,58 @@ $this->layout = false;
                         </div>
                     <?php endforeach; ?>
                 <?php elseif($role==="my_precious"): ?>
-                    <?php foreach ($tablesmyprecious as $tablesmyprecious): ?>
-                        <div class="col-md-3">
-                            <div class="card mb-4 shadow-sm">
-                                <div class="card-body">
-                                    <h4 class="card-text"><?= strtoupper(h($tablesmyprecious->title)); ?></h4>
-                                    <p class="card-text"><?= strtoupper(h($tablesmyprecious->text)); ?></p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <?php
-                                                echo $this->Html->link(
-                                                    strtoupper($tablesmyprecious->title),
-                                                    $tablesmyprecious->link,
-                                                    ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
-                                                );
-                                            ?>
+                    <div class="container-fluid">
+                        <h4>General</h4>
+                        <div class="row">
+                            <?php foreach ($tables_myprecious_general as $tablesmyprecious): ?>
+                                <div class="col-md-3">
+                                    <div class="card mb-4 shadow-sm">
+                                        <div class="card-body">
+                                            <h4 class="card-text"><?= strtoupper(h($tablesmyprecious->title)); ?></h4>
+                                            <p class="card-text"><?= strtoupper(h($tablesmyprecious->text)); ?></p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <?php
+                                                        echo $this->Html->link(
+                                                            strtoupper($tablesmyprecious->title),
+                                                            $tablesmyprecious->link,
+                                                            ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                        );
+                                                    ?>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <?php endforeach; ?>
                         </div>
-                    <?php endforeach; ?>
+                    </div>
+                    <div class="container-fluid">
+                        <h4>Finance Table</h4>
+                        <div class="row">
+                            <?php foreach ($tables_myprecious_manager as $tablesmyprecious): ?>
+                                <div class="col-md-3">
+                                    <div class="card mb-4 shadow-sm">
+                                        <div class="card-body">
+                                            <h4 class="card-text"><?= strtoupper(h($tablesmyprecious->title)); ?></h4>
+                                            <p class="card-text"><?= strtoupper(h($tablesmyprecious->text)); ?></p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <?php
+                                                        echo $this->Html->link(
+                                                            strtoupper($tablesmyprecious->title),
+                                                            $tablesmyprecious->link,
+                                                            ['class' => 'btn btn-sm btn-danger', 'style' => 'background-color: #dd4b39' ]
+                                                        );
+                                                    ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
                 <?php endif;?>
             </div>
         </div>
